@@ -4,9 +4,9 @@
  * @Contact: cel@cenics.net
  * @Company: Cencis s.c.p.
  */
-namespace QuTcPdf;
+namespace HoozarPdf;
 
-use QuTcPdf\Exception;
+use HoozarPdf\Exception;
 
 class Module
 {
@@ -35,7 +35,7 @@ class Module
         $module = $this;
         return array(
             'factories' => array(
-                'QuTcPdf' => function () use ($module) {
+                'HoozarPdfService' => function () use ($module) {
                     return $module;
                 },
             ),
@@ -54,7 +54,7 @@ class Module
      * @return mixed
      * @throws Exception\RuntimeException
      */
-    public function MyPdf
+    public function createPdfDocument
     (
         $orientation = 'P',
         $unit = 'mm',
