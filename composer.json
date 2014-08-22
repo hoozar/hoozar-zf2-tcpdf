@@ -1,5 +1,5 @@
 {
-    "name": "hoozar/hoozar-zf2-tcpdf",
+    "name": "hoozar/HoozarPdf",
     "description": "ZF2 module for TcPdf updated by Hoozar August 2014",
     "type": "module",
     "version":"0.0.1-dev",
