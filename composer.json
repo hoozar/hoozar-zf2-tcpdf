@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-0": {
-            "HoozarZF2TCPDF": "src/"
+            "HoozarPdf": "src/"
         },
         "classmap": [
             "./Module.php"
