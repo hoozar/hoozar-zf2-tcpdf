@@ -43,8 +43,8 @@ Integration
 ========================
 ```php
   $sm  = $this->getServiceLocator();
-  $pdf = $sm->get('QuTcPdf');
-  $pdf = $pdf->MyPdf();
+  $pdf = $sm->get('HoozarPdfService');
+  $pdf = $pdf->createPdfDocument();
 
   $pdf->setHeaderData($ln = 0,$lw = 0,$ht = 0,$hs = 0,$tc = array(255,255,255),$lc = array(255,255,255));
   $pdf->setFooterData($tc = array(255,255,255),$lc = array(255,255,255));
