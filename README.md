@@ -1,3 +1,11 @@
+ZF2 module for TcPdf
+========================
+
+- Forked from QuTcPdf 0.0.1-dev
+- updated TCPDF library to 6.0.091 (August 2014)
+- changed default language to Polish
+
+
 QuTcPdf 0.0.1-dev:
 ========================
 
