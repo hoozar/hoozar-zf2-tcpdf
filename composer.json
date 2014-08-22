@@ -1,10 +1,10 @@
 {
-    "name": "qu-modules/qu-tcpdf",
-    "description": "ZF2 module for TcPdf",
+    "name": "hoozar/hoozar-zf2-tcpdf",
+    "description": "ZF2 module for TcPdf updated by Hoozar August 2014",
     "type": "module",
     "version":"0.0.1-dev",
     "keywords": ["tcpdf","pdf","zf2","module"],
-    "homepage": "https://github.com/Celtico/QuTcPdf",
+    "homepage": "https://github.com/hoozar/hoozar-zf2-tcpdf",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.3.3",
@@ -17,13 +17,19 @@
             "homepage": "http://www.cenics.cat",
             "role": "Developer"
         }
+        {
+            "name": "Hoozar",
+            "email": "hoozar@interia.pl",
+            "homepage": "http://nomadsoft.pl",
+            "role": "Developer"
+        }
     ],
     "support": {
         "email": "cel@cenics.net"
     },
     "autoload": {
         "psr-0": {
-            "QuTcPdf": "src/"
+            "HoozarZF2TCPDF": "src/"
         },
         "classmap": [
             "./Module.php"
